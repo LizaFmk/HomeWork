@@ -14,7 +14,7 @@ public class Factory {
                     generatePartOfRobotAndAddToStorage();
                     try {
                         STORAGE.wait();
-                        Thread.sleep(500);
+                        Thread.sleep(5000);
                     } catch (InterruptedException ex) {
                         producer = false;
                     }
